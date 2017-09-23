@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Karthik Badam"
+title                    : "Fereshteh Amini"
 title_separator          : "-"
-name                     : "Sriram Karthik Badam"
-description              : "Karthik's website"
+name                     : "Fereshteh Amini"
+description              : "Personal Website"
 url                      : # the base hostname & protocol for your site e.g. "https://karthikbadam.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -37,9 +37,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : karthik_badam
+  username               : amini_fe
 facebook:
-  username               : karthikb007
+  username               : aminife
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -63,19 +63,19 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Sriram Karthik Badam"
-  avatar           : "bio-photo.png"
-  bio              : "I am a PhD student in Computer Science at University of Maryland, College Park. My research interests include Visualization, Visual Analytics, and Human-Computer Interaction. Check out my projects and publications for more information."
-  location         : "Greenbelt, MD, USA"
-  email            : "karthikbadam@infoviz.me"
+  name             : "Fereshteh Amini"
+  avatar           : "bio-photo.jpg"
+  bio              : "I am a PhD candidate in Computer Science at University of Manitoba, Canada. My research interests include Data Storytelling, Information Visualization, and Visual Analytics. Check out my projects and publications for more information."
+  location         : "Chicago, IL, USA"
+  email            : "amini@cs.umanitoba.ca"
   uri              : 
   bitbucket        : 
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "karthikb007"
+  facebook         : "aminife"
   foursquare       :
-  github           : "karthikbadam"
+  github           : "fereshtehamini"
   google_plus      : 
   keybase          :
   instagram        :
@@ -86,12 +86,12 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "karthik_badam"
+  twitter          : "amini_fe"
   vine             :
   weibo            :
   xing             :
-  youtube          : "karthikbadam"
-  scholar          : "citations?user=ExY_mkUAAAAJ&hl=en"
+  youtube          : "aminife"
+  scholar          : "citations?user=fNUgQjMAAAAJ&hl=en"
 
 
 # Reading Files
