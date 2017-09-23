@@ -64,7 +64,7 @@ google_ad_slot           :
 # Site Author
 author:
   name             : "Fereshteh Amini"
-  avatar           : "bio-photo.jpg"
+  avatar           : 
   bio              : "I am a PhD candidate in Computer Science at University of Manitoba, Canada. My research interests include Data Storytelling, Information Visualization, and Visual Analytics. Check out my projects and publications for more information."
   location         : "Chicago, IL, USA"
   email            : "amini@cs.umanitoba.ca"
