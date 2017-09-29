@@ -1,17 +1,13 @@
-/**
- * Created by karthik on 10/29/16.
- */
-
 $(document).ready(function () {
 
     d3.json("/assets/data/overview.json", function (data) {
 
         d3.select(".page__title").remove();
 
-        // Empty the div
+/*         // Empty the div
         d3.select("#postsList").empty();
         var postsList = d3.select("#postsList").style("float", "left").style("padding-left", "0px");
-        postsList.append("h1").html("Recent blog posts <hr/>").style("margin", "0px");
+        postsList.append("h1").html("Recent blog posts <hr/>").style("margin", "0px"); */
 
 
         // Empty the div
@@ -20,7 +16,7 @@ $(document).ready(function () {
         newsList.append("h1").html("Recent news <hr/>").style("margin", "0px");
 
         // posts
-        postsContent = postsList.append("div").attr("id", "postsContent");
+        //postsContent = postsList.append("div").attr("id", "postsContent");
         newsContent = newsList.append("div").attr("id", "newsContent");
 
         data.forEach(function (datum, i) {
@@ -61,7 +57,7 @@ function showNews (newsContent, news, i) {
 
 }
 
-function showPost (postsContent, post, i) {
+/* function showPost (postsContent, post, i) {
 
     var pro = postsContent.append("div").style("display", "block")
         .style("padding-left", "10px")
@@ -90,5 +86,5 @@ function showPost (postsContent, post, i) {
     proInfo.append("span").attr("class", "textlink").html('<a target="_blank" href="' + post.video + '">[Video]</a>  ').style("font-size", "12px");
     proInfo.append("span").attr("class", "textlink").html(post.date + '<br/>').style("font-size", "12px");
 
-}
+} */
 
