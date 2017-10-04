@@ -39,7 +39,9 @@
     "year": "2017",
 	"link": "http://hci.cs.umanitoba.ca/publications/details/in-situ-vis",
     "type": "Conference",
-    "name": "insituhealthfitness"
+    "name": "insituhealthfitness",
+	"pdf": "",
+	"video": ""
   },
   {
     "authors": [
@@ -54,6 +56,8 @@
     "year": "2017",
 	"link": "http://drops.dagstuhl.de/opus/volltexte/2016/5821/pdf/dagrep_v006_i002_p001_s16061.pdf",
     "type": "Conference",
-    "name": "datastorytellingevaluation"
+    "name": "datastorytellingevaluation",
+	"pdf": "",
+	"video": ""
   }
 ]

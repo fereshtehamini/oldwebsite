@@ -119,7 +119,7 @@ function showPublication (publicationsContent, paper, i) {
 
     paper.authors.forEach(function (author, j) {
         var mainAuthor = false;
-        if (author == "Sriram Karthik Badam") {
+        if (author == "Fereshteh Amini") {
             author = "" + author + "";
             mainAuthor = true;
         }
@@ -145,6 +145,10 @@ function showPublication (publicationsContent, paper, i) {
 
     if (paper.video != "") {
         pubInfo.append("span").attr("class", "textlink").html('<a target="_blank" href="' + paper.video + '">[video]</a>  ').style("font-size", "12px");
+    }
+    
+    if (paper.link != "") {
+        pubInfo.append("span").attr("class", "textlink").html('<a target="_blank" href="' + paper.link + '">[more]</a> ').style("font-size", "12px");
     }
     //
     // if (paper.bibtex != "") {
