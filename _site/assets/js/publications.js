@@ -1,7 +1,3 @@
-/**
- * Created by karthik on 10/29/16.
- */
-
 Array.prototype.unique = function () {
     var a = this.concat();
     for (var i = 0; i < a.length; ++i) {
@@ -72,13 +68,14 @@ $(document).ready(function () {
         // publications
         publicationsContent = publicationsList.append("div").attr("id", "publicationsContent");
 
-        publicationsContent.append("h3").text("Journal Papers (" + journals.length + ")");
+        publicationsContent.append("h3").html("Selected Papers (" + conferences.length + ")");
+		//publicationsContent.append("h3").text("Journal Papers (" + journals.length + ")");
         journals.forEach(function (paper, i) {
             showPublication(publicationsContent, paper, i);
 
         });
 
-        publicationsContent.append("h3").html("Conference Papers (" + conferences.length + ")");
+        //publicationsContent.append("h3").html("Conference Papers (" + conferences.length + ")");
         conferences.forEach(function (paper, i) {
             showPublication(publicationsContent, paper, i);
         });
