@@ -1,34 +1,6 @@
 [
   {
     "authors": [
-      "Sriram Karthik Badam",
-      "Fereshteh Amini",
-      "Niklas Elmqvist",
-      "Pourang Irani"
-    ],
-    "title": "Supporting Visual Exploration for Multiple Users in Large Display Environments",
-    "venue": "IEEE Visual Analytics Science and Technology (VAST)",
-    "year": "2016",
-    "type": "Conference",
-    "pdf": "/assets/data/multi-user.pdf",
-    "video": "https://www.youtube.com/watch?v=xd7G_q8nocc",
-    "bibtex": "",
-    "name": "proxemiclens",
-    "keywords": [
-      "Proxemics",
-      "Gestures",
-      "Visual Exploration",
-      "Collaboration",
-      "Sensemaking",
-      "User Study",
-      "Large Displays",
-      "Visualization",
-      "Visual Analytics",
-      "HCI"
-    ]
-  },
-  {
-    "authors": [
       "Fereshteh Amini",
       "Khalad Hasan",
 	  "Andrea Bunt",
@@ -41,7 +13,8 @@
     "type": "Conference",
     "name": "insituhealthfitness",
 	"pdf": "",
-	"video": ""
+	"video": "",
+	"level": "phd"
   },
   {
     "authors": [
@@ -58,6 +31,72 @@
     "type": "Conference",
     "name": "datastorytellingevaluation",
 	"pdf": "",
-	"video": ""
-  }
+	"video": "",
+	"level": "phd"
+  },
+  {
+    "authors": [
+      "Sriram Karthik Badam",
+      "Fereshteh Amini",
+      "Niklas Elmqvist",
+      "Pourang Irani"
+    ],
+    "title": "Supporting Visual Exploration for Multiple Users in Large Display Environments",
+    "venue": "IEEE Visual Analytics Science and Technology (VAST)",
+    "year": "2016",
+    "type": "Conference",
+    "pdf": "/assets/data/multiuser.pdf",
+    "video": "https://www.youtube.com/watch?v=xd7G_q8nocc",
+    "bibtex": "",
+    "name": "proxemiclens",
+	"link": "",
+    "keywords": [
+      "Proxemics",
+      "Gestures",
+      "Visual Exploration",
+      "Collaboration",
+      "Sensemaking",
+      "User Study",
+      "Large Displays",
+      "Visualization",
+      "Visual Analytics",
+      "HCI"
+    ],
+	"level": "phd"
+  },
+  {
+    "authors": [
+      "Fereshteh Amini",
+      "Nathalie Henry Riche",
+	  "Bongshin Lee",
+	  "Andrés Monroy-Hernández",
+	  "Pourang Irani"
+    ],
+    "title": "Authoring Data-Driven Videos with DataClips",
+    "venue": "IEEE transactions on visualization and computer graphics (InfoVis)",
+    "year": "2016",
+	"link": "http://hci.cs.umanitoba.ca/Publications/details/dataclips",
+    "type": "Conference",
+    "name": "dataclips",
+	"pdf": "/assets/data/dataclips.pdf",
+	"video": "https://www.youtube.com/watch?v=aNF0crMASRQ",
+	"level": "phd"
+  },
+  {
+    "authors": [
+      "Fereshteh Amini",
+      "Nathalie Henry Riche",
+	  "Bongshin Lee",
+	  "Pourang Irani"
+    ],
+    "title": "Understanding Data Videos: Looking at Narrative Visualization through the Cinematography Lens",
+    "venue": "ACM Human Factors in Computing Systems (CHI)",
+    "year": "2015",
+	"link": "http://hci.cs.umanitoba.ca/Publications/details/data-videos",
+    "type": "Conference",
+    "name": "understandingdv",
+	"pdf": "/assets/data/understandingdv.pdf",
+	"video": "https://www.youtube.com/watch?v=0q_VdW5R-Uk",
+	"level": "phd"
+  } 
 ]
