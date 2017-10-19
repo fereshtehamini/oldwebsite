@@ -43,18 +43,26 @@ $(document).ready(function () {
         // meta data
         var coauthors = [];
         var keywords = [];
-        var journals = [];
-        var conferences = [];
+        //var journals = [];
+        //var conferences = [];
+		var phdPubs = [];
+		var mscPubs = [];
 
         data.forEach(function (datum) {
             coauthors = coauthors.concat(datum.authors);
             keywords = keywords.concat(datum.keywords);
 
-            if (datum.type == "Conference") {
+			if (datum.level == "phd") {
+                phdPubs.push(datum);
+            } else if (datum.level = "msc") {
+                mscPubs.push(datum);
+            }
+			
+            /* if (datum.type == "Conference") {
                 conferences.push(datum);
             } else if (datum.type = "Journal") {
                 journals.push(datum);
-            }
+            } */
 
         });
 
@@ -68,17 +76,26 @@ $(document).ready(function () {
         // publications
         publicationsContent = publicationsList.append("div").attr("id", "publicationsContent");
 
-        publicationsContent.append("h3").html("Selected Papers (" + conferences.length + ")");
-		//publicationsContent.append("h3").text("Journal Papers (" + journals.length + ")");
+		publicationsContent.append("h3").text("PhD publications (" + phdPubs.length + ")");
+        phdPubs.forEach(function (paper, i) {
+            showPublication(publicationsContent, paper, i);
+
+        });
+
+        publicationsContent.append("h3").html("MSc publications (" + mscPubs.length + ")");
+        mscPubs.forEach(function (paper, i) {
+            showPublication(publicationsContent, paper, i);
+        });
+/*         publicationsContent.append("h3").text("Journal Papers (" + journals.length + ")");
         journals.forEach(function (paper, i) {
             showPublication(publicationsContent, paper, i);
 
         });
 
-        //publicationsContent.append("h3").html("Conference Papers (" + conferences.length + ")");
+        publicationsContent.append("h3").html("Conference Papers (" + conferences.length + ")");
         conferences.forEach(function (paper, i) {
             showPublication(publicationsContent, paper, i);
-        });
+        }); */
 
     });
 
@@ -126,7 +143,7 @@ function showPublication (publicationsContent, paper, i) {
         // } else {
         //     author = author + "<br/>";
         // }
-        pubInfo.append("span").html(author).style("font-size", "12px").style("background-color", mainAuthor?"#f0e8ff":"#FFF");
+        pubInfo.append("span").html(author).style("font-size", "12px").style("font-weight", mainAuthor?"bold":"normal");//style("background-color", mainAuthor?"#f0e8ff":"#FFF");
         if (j != paper.authors.length - 1) {
             pubInfo.append("span").html(", ");
         } else {
@@ -136,6 +153,7 @@ function showPublication (publicationsContent, paper, i) {
 
     pubInfo.append("span").html(paper.venue + ", " + paper.year +"<br/>").style("font-size", "12px");
 
+
     if (paper.pdf != "") {
         pubInfo.append("span").attr("class", "textlink").html('<a target="_blank" href="' + paper.pdf + '">[pdf]</a>  ').style("font-size", "12px");
     }
@@ -143,10 +161,9 @@ function showPublication (publicationsContent, paper, i) {
     if (paper.video != "") {
         pubInfo.append("span").attr("class", "textlink").html('<a target="_blank" href="' + paper.video + '">[video]</a>  ').style("font-size", "12px");
     }
-    
-    if (paper.link != "") {
-        pubInfo.append("span").attr("class", "textlink").html('<a target="_blank" href="' + paper.link + '">[more]</a> ').style("font-size", "12px");
-    }
+	if (paper.link != "") {
+        pubInfo.append("span").attr("class", "textlink").html('<a target="_blank" href="' + paper.link + '">[more]</a>  ').style("font-size", "12px");
+    }	
     //
     // if (paper.bibtex != "") {
     //     pubInfo.append("span").attr("class", "textlink").html('<a target="_blank" href="' + paper.bibtex + '">(bibtex)</a> ').style("font-size", "12px");
