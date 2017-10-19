@@ -7,7 +7,7 @@
 	  "Pourang Irani"
     ],
     "title": "Exploring In-Situ Usage of Health and Fitness Data Visualizations",
-    "venue": "ACM Pervasive Computing Technologies for Healthcare (PervasiveHealth), Barcelona, Spain",
+    "venue": "ACM Pervasive Computing Technologies for Healthcare (PervasiveHealth)",
     "year": "2017",
 	"link": "http://hci.cs.umanitoba.ca/publications/details/in-situ-vis",
     "type": "Conference",
@@ -28,7 +28,7 @@
     "venue": "Book chapter in CRC Press",
     "year": "2017",
 	"link": "http://drops.dagstuhl.de/opus/volltexte/2016/5821/pdf/dagrep_v006_i002_p001_s16061.pdf",
-    "type": "Conference",
+    "type": "Journal",
     "name": "datastorytellingevaluation",
 	"pdf": "",
 	"video": "",
@@ -84,19 +84,171 @@
   },
   {
     "authors": [
+      "Nathalie Henry Riche",
+	  "Bongshin Lee",
+	  "Andrés Monroy-Hernández",
+	  "Fereshteh Amini"
+    ],
+    "title": "Patent: Animated Data Visualization Video",
+    "venue": "Patent Filed 10 Aug. 2015",
+    "year": "US 20170046016 A1",
+	"link": "http://www.google.com.gi/patents/US20170046016",
+    "type": "Patent",
+    "name": "patentdc",
+	"pdf": "",
+	"video": "",
+	"level": "patent"
+  },
+  {
+    "authors": [
       "Fereshteh Amini",
       "Nathalie Henry Riche",
 	  "Bongshin Lee",
+	  "Christophe Hurter",
 	  "Pourang Irani"
     ],
     "title": "Understanding Data Videos: Looking at Narrative Visualization through the Cinematography Lens",
     "venue": "ACM Human Factors in Computing Systems (CHI)",
     "year": "2015",
 	"link": "http://hci.cs.umanitoba.ca/Publications/details/data-videos",
-    "type": "Conference",
+    "type": "Journal",
     "name": "understandingdv",
 	"pdf": "/assets/data/understandingdv.pdf",
 	"video": "https://www.youtube.com/watch?v=0q_VdW5R-Uk",
 	"level": "phd"
+  },
+  {
+    "authors": [
+      "Fereshteh Amini",
+      "Sébastien Rufiange",
+	  "Zahid Hossain",
+	  "Quentin Ventura",
+	  "Pourang Irani",
+	  "Michael J. McGuffin"
+    ],
+    "title": "The Impact of Interactivity on Comprehending 2D and 3D Visualizations of Movement Data",
+    "venue": "IEEE transactions on visualization and computer graphics (TVCG)",
+    "year": "2014",
+	"link": "http://hci.cs.umanitoba.ca/Publications/details/stv-paper",
+    "type": "Journal",
+    "name": "stv",
+	"pdf": "http://hci.cs.umanitoba.ca/assets/publication_files/2013-TVCG-STV.compressed.pdf",
+	"video": "",
+	"level": "phd"
+  },
+  {
+    "authors": [
+      "Hina Aman",
+	  "Pourang Irani",
+	  "Fereshteh Amini"
+    ],
+    "title": "Revisiting Crisis Maps with Geo-Temporal Tag Visualization",
+    "venue": "IEEE Pacific Visualization Symposium (PacificVis)",
+    "year": "2015",
+	"link": "http://hci.cs.umanitoba.ca/Publications/details/gtviz",
+    "type": "Conference",
+    "name": "crisismap",
+	"pdf": "",
+	"video": "",
+	"level": "phd"
+  },
+  {
+    "authors": [
+	  "Fereshteh Amini",
+	  "Jelena Mišić",
+	  "Moazzam Khan",
+	  "Hossein Pourreza"
+    ],
+    "title": "Performance of IEEE 802.15.4 clusters with power management and key exchange",
+    "venue": "Journal of Computer Science and Technology (JCST)",
+    "year": "2008",
+	"link": "",
+    "type": "Journal",
+    "name": "zigbee08",
+	"pdf": "",
+	"video": "",
+	"level": "msc"
+  },
+  {
+    "authors": [
+	  "Fereshteh Amini",
+	  "Jelena Mišić",
+	  "Hossein Pourreza"
+    ],
+    "title": "Detection of Sybil Attack in Beacon Enabled IEEE 802.15.4 Networks",
+    "venue": "Wireless Communications and Mobile Computing (IWCMC)",
+    "year": "2008",
+	"link": "",
+    "type": "Conference",
+    "name": "sybil",
+	"pdf": "",
+	"video": "",
+	"level": "msc"
+  },
+  {
+    "authors": [
+	  "Jelena Mišić",
+	  "Fereshteh Amini",
+	  "Moazzam Khan"
+    ],
+    "title": "On Security Attacks in Healthcare WSNS Implemented on 802.15.4 Beacon Enabled Clusters",
+    "venue": "Consumer Communications and Networking (CCNC)",
+    "year": "2007",
+	"link": "",
+    "type": "Conference",
+    "name": "zigbeesec07",
+	"pdf": "",
+	"video": "",
+	"level": "msc"
+  },
+  {
+    "authors": [
+	  "Moazzam Khan",
+	  "Fereshteh Amini",
+	  "Jelena Mišić"
+    ],
+    "title": "Key Exchange in 802.15.4 Networks and its Performance Implications",
+    "venue": "Mobile Sensor Networks (MSN)",
+    "year": "2006",
+	"link": "",
+    "type": "Conference",
+    "name": "zigbee06",
+	"pdf": "",
+	"video": "",
+	"level": "msc"
+  },
+  {
+    "authors": [
+	  "Moazzam Khan",
+	  "Fereshteh Amini",
+	  "Jelena Mišić",
+	  "Vojislav B. Mišić"
+    ],
+    "title": "The cost of security: Performance of Zigbee Key Exchange Mechanism in an 802.15.4 Beacon Enabled Cluster",
+    "venue": "Mobile Adhoc and Sensor Systems (MASS)",
+    "year": "2006",
+	"link": "",
+    "type": "Conference",
+    "name": "zigbeesec06",
+	"pdf": "",
+	"video": "",
+	"level": "msc"
+  },
+  {
+    "authors": [
+	  "Jelena Mišić",
+	  "Fereshteh Amini",
+	  "Moazzam Khan"
+	  
+    ],
+    "title": "Performance Implications of Periodic Key Exchanges and Packet Integrity overhead in an 802.15.4 Beacon Enabled Cluster",
+    "venue": "International Journal of Sensor Networks (IJSNet)",
+    "year": "2006",
+	"link": "",
+    "type": "Journal",
+    "name": "zigbeekey06",
+	"pdf": "",
+	"video": "",
+	"level": "msc"
   } 
 ]
