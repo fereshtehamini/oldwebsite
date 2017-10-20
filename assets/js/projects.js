@@ -62,7 +62,7 @@ function showProject (projectsContent, project, i) {
 	
 	if(project.publications != ""){
 		proInfo.append("span").html("Publication venues: ").style("font-size", "12px");
-		proInfo.append("span").html("Publication venues: " + project.publications + "<br/>").style("font-size", "12px");
+		proInfo.append("span").html(project.publications + "<br/>").style("font-size", "12px");
 		
 	}
 

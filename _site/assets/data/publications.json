@@ -250,22 +250,5 @@
 	"pdf": "",
 	"video": "",
 	"level": "msc"
-  },
-  {
-    "authors": [
-	  "Jelena Mišić",
-	  "Fereshteh Amini",
-	  "Moazzam Khan"
-	  
-    ],
-    "title": "Performance Implications of Periodic Key Exchanges and Packet Integrity overhead in an 802.15.4 Beacon Enabled Cluster",
-    "venue": "International Journal of Sensor Networks (IJSNet)",
-    "year": "2006",
-	"link": "",
-    "type": "Journal",
-    "name": "zigbeekey06",
-	"pdf": "",
-	"video": "",
-	"level": "msc"
   } 
 ]
