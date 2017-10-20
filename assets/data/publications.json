@@ -25,7 +25,7 @@
 	  "Benjamin Wiederkehr"
     ],
     "title": "Book chapter: Evaluating Data-Driven Stories and Storytelling Tools",
-    "venue": "Book chapter in CRC Press",
+    "venue": "Chapter to appear in Data-Driven Storytelling, a forthcoming book edited by Sheelagh Carpendale, Nicholas Diakopoulos, Christophe Hurter, and Nathalie Henry Riche",
     "year": "2017",
 	"link": "http://drops.dagstuhl.de/opus/volltexte/2016/5821/pdf/dagrep_v006_i002_p001_s16061.pdf",
     "type": "Journal",
@@ -230,6 +230,23 @@
 	"link": "",
     "type": "Conference",
     "name": "zigbeesec06",
+	"pdf": "",
+	"video": "",
+	"level": "msc"
+  },
+  {
+    "authors": [
+	  "Jelena Mišić",
+	  "Fereshteh Amini",
+	  "Moazzam Khan"
+	  
+    ],
+    "title": "Performance Implications of Periodic Key Exchanges and Packet Integrity overhead in an 802.15.4 Beacon Enabled Cluster",
+    "venue": "International Journal of Sensor Networks (IJSNet)",
+    "year": "2006",
+	"link": "",
+    "type": "Journal",
+    "name": "zigbeekey06",
 	"pdf": "",
 	"video": "",
 	"level": "msc"

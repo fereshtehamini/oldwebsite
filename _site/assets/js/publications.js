@@ -47,6 +47,7 @@ $(document).ready(function () {
         //var conferences = [];
 		var phdPubs = [];
 		var mscPubs = [];
+		var patents = [];
 
         data.forEach(function (datum) {
             coauthors = coauthors.concat(datum.authors);
@@ -54,9 +55,11 @@ $(document).ready(function () {
 
 			if (datum.level == "phd") {
                 phdPubs.push(datum);
-            } else if (datum.level = "msc") {
+            } else if (datum.level == "msc") {
                 mscPubs.push(datum);
-            }
+            } else if (datum.level == "patent") {
+                patents.push(datum);
+			}
 			
             /* if (datum.type == "Conference") {
                 conferences.push(datum);
@@ -73,16 +76,22 @@ $(document).ready(function () {
         //publicationsList.append("div").html("Karthik has <b>" + data.length + " publications</b> with <b>" + (coauthors.length - 1) + " collaborators</b> since " + data[data.length-1].year + ".")
 
 
-        // publications
+        // publications and patents
         publicationsContent = publicationsList.append("div").attr("id", "publicationsContent");
 
-		publicationsContent.append("h3").text("PhD publications (" + phdPubs.length + ")");
+		publicationsContent.append("h3").text("Patents (" + patents.length + ")");
+        patents.forEach(function (paper, i) {
+            showPublication(publicationsContent, paper, i);
+
+        });
+		
+		publicationsContent.append("h3").text("Peer-reviewed journals (and archival conferences)");//text("PhD - Information Visualization (" + phdPubs.length + ")");
         phdPubs.forEach(function (paper, i) {
             showPublication(publicationsContent, paper, i);
 
         });
 
-        publicationsContent.append("h3").html("MSc publications (" + mscPubs.length + ")");
+        publicationsContent.append("h3").html("MSc - Network Security");//html("MSc - Network Security (" + mscPubs.length + ")");
         mscPubs.forEach(function (paper, i) {
             showPublication(publicationsContent, paper, i);
         });

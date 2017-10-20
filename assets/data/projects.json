@@ -1,44 +1,44 @@
 [
   {
-    "title": "Ubiquitous Analytics: Interacting with Big Data Anywhere, Anytime",
+    "title": "Communicating Change in Data Visualization Dashboards",
     "advisors": [
-      "Niklas Elmqvist"
+      "Robert Kosara"
     ],
-    "abstract": "This project envisions leveraging ecosystems of digital devices, including large high-resolution displays, tabletop displays, handheld devices, and augmented reality displays, to support collaborative sensemaking during crisis situations. The research challenges for this include designing universal interfaces that combine multiple devices, developing flexible visual representations that can seamlessly migrate between devices, building ecosystems of devices while supporting computational and storage requirements, and enabling analysts efficiently work together.",
-    "publications": ["VAST 2017 (in review)", "GI 2017", "IEEE VAST 2016", "IEEE TVCG 2015", "ACM ITS 2014", "IEEE CG&A 2014"],
-    "name": "ubilytics",
-    "comments": "PhD dissertation topic"
+    "abstract": "Research work on exploring the effects of different animation techniques designed to communicate various data changes in visualization dashboards.",
+    "publications": "",
+    "name": "animation",
+    "comments": "Internship at Tableau Inc."
   },
   {
-    "title": "Mixed-Initiative Interaction for Visual Analytics",
+    "title": "Evaluating Data Videos",
     "advisors": [
-      "Niklas Elmqvist",
-      "David Ebert"
+      "Pourang Irani",
+      "Jason Leboe",
+	  "Nathalie Henry Riche",
+	  "Bongshin Lee"
     ],
-    "abstract": "This project aims at closely coupling computational models, such as from machine learning, data mining, and natural language processing, with visual data exploration. This creates mixed-initiative approaches for visual analytics where the machine uncovers intelligent pathways, makes observations, and creates representations of the data, while the analysts make decisions to guide the machine based on their high-level goals, hypotheses, knowledge, and intuition. We currently explored such a visual analytics approach for time-series prediction (called TimeFork).",
-    "publications": ["ACM CHI 2016"],
-    "name": "mixed-initiative"
+    "abstract": "Multiple projects aimed at assessing different characteristics and feasures of data videos. In particular, we are studying the effects of animation and pictographic representations on viewer engagement and comprehension of the communicated information.",
+    "publications": "ACM CHI 2018",
+    "name": "datavideoeval"
   },
   {
-    "title": "Progressive Visual Analytics",
+    "title": "3D Stereo Visualizations of Movement Data",
     "advisors": [
-      "Niklas Elmqvist",
-      "Jean-Daniel Fekete"
+      "Pourang Irani"
     ],
-    "abstract": "Traditional visual analytics systems face challenges with latency when dealing with large datasets and complex computations. Considering that humans cannot maintain their attention when system response time exceeds approximately 10 seconds, we need alternative ways to create responsive visual analytics systems. This project targets creating such systems by taking advantage of a progressive paradigm that involves intermediate results and incremental data processing. Visualizing these intermediate results, associated uncertainities, and corresponding feedback and control options is the challenge in this project.",
-    "publications": ["EuroVis 2017"],
-    "name": "progressiveVA"
+    "abstract": "The goal of this project is to investigate whether 3D Stereo visualization of movement data can be benefitial when performing common tasks. We have implemented space-time cube visualization of movement data in the Zspace system and plan to conduct a study that compares user performance comparing 3D and 3D stereo conditions.",
+    "publications": "",
+    "name": "zspace"
   },
   {
-    "title": "Natural Interaction Spaces for Collaborative Design",
+    "title": "Visual Analytics for Structural Health Monitoring Data",
     "advisors": [
-      "Niklas Elmqvist",
-      "Lorraine Kisselburgh",
-      "Karthik Ramani"
+      "Pourang Irani",
+	  "Gamal Mustapha"
     ],
-    "abstract": "The goal of this project is to create exploratory environments that holistically support early design-driven innovation, especially concerning products, for groups of designers. This involves taking advantage of natural interaction technologies including large multi-touch displays, handheld direct-touch devices, and activity sensors in a coherent design environment. Furthermore, this  includes developing storage and history management platforms to keep track of the design process (which is traditionally done by sketching on paper and storyboarding).",
-    "publications": ["EuroVis 2017", "GI 2017", "ACM CHI 2014", "ASME IDETC/DIC 2014", "IJHCS 2014"],
-    "name": "nuidesign",
-    "comments": "Masters thesis topic"
+    "abstract": "Design and implementation of visual analytics solutions for discovering and communicating insights from structural health monitoring data coming in from different sennsors employed in physical structures.",
+    "publications": "VAST 2018",
+    "name": "sparkmap",
+	"comments": "In collaboration with industry partner SMT Research"
   }
 ]

@@ -1,7 +1,3 @@
-/**
- * Created by karthik on 10/29/16.
- */
-
 $(document).ready(function () {
 
     d3.json("/assets/data/projects.json", function (data) {
@@ -42,7 +38,7 @@ function showProject (projectsContent, project, i) {
         // .style("background-repeat", "no-repeat")
         .style("vertical-align", "top")
         .style("float", "left")
-        .style("height", "150px")
+        .style("height", "112.5px")//"150px")
         .style("margin-right", "7px")
         .attr("src", "/assets/images/" + project.name + ".png");
 
@@ -51,7 +47,7 @@ function showProject (projectsContent, project, i) {
         .style("margin", "0px");
 
     if ("comments" in project) {
-        proInfo.append("span").html("" + project.comments + "<br/> ").style("background-color", "#f0e8ff").style("font-size", "14px");
+        proInfo.append("span").html("" + project.comments + "<br/> ").style("font-weight", "bold").style("font-size", "14px");//.style("background-color", "#f0e8ff").style("font-size", "14px");
     }
 
     proInfo.append("span").html("Advised by: ").style("font-size", "14px");
@@ -63,18 +59,24 @@ function showProject (projectsContent, project, i) {
         }
         proInfo.append("span").html(advisor).style("font-size", "14px");
     });
+	
+	if(project.publications != ""){
+		proInfo.append("span").html("Publication venues: ").style("font-size", "12px");
+		proInfo.append("span").html("Publication venues: " + project.publications + "<br/>").style("font-size", "12px");
+		
+	}
 
-    proInfo.append("span").html("Publication venues: ").style("font-size", "12px");
+/*     proInfo.append("span").html("Publication venues: ").style("font-size", "12px");
     project.publications.forEach(function (publication, j) {
         if (j != project.publications.length - 1) {
             publication = publication + ", ";
         } else {
             publication = publication + "<br/>";
         }
-        proInfo.append("span").html(publication).style("font-size", "12px");
-    });
+        proInfo.append("span").html("Publication venues: ").style("font-size", "12px");
+    }); */
 
-    proInfo.append("span").html(project.abstract+" ").style("font-size", "12px");
+    proInfo.append("span").html("<br/>" + project.abstract+" ").style("font-size", "12px");
 
 
 
