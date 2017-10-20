@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Fereshteh Amini"
 title_separator          : "-"
 name                     : "Fereshteh Amini"
-description              : "Personal Website"
+description              : "Fereshteh Amini - Personal Website"
 url                      : # the base hostname & protocol for your site e.g. "https://karthikbadam.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
