@@ -1,7 +1,3 @@
-/**
- * Created by karthik on 10/30/16.
- */
-
 $(document).ready(function () {
 
     d3.json("/assets/data/awards.json", function (data) {

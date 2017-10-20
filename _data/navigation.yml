@@ -10,5 +10,5 @@ main:
   # - title: "Awards & Press"
     # url: /awards/
 
-  # - title: "Teaching"
-    # url: /teaching/
+  - title: "Teaching"
+    url: /teaching/
