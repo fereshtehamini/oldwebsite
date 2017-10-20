@@ -52,7 +52,13 @@ function showAward (awardsContent, award, i) {
         .style("display", "inline-block");
 
 
-    proInfo.append("div").html('<a target="_blank" href="' + award.link + '">' + award.title + '</a>').style("font-size", "14px");
+    if(award.link && award.link != ""){
+		proInfo.append("div").html('<a target="_blank" href="' + award.link + '">' + award.title + '</a>').style("font-size", "14px");
+	}
+	else {
+		proInfo.append("div").html(award.title ).style("font-size", "14px");
+	}
+	
 
     if ("abstract" in award) {
         proInfo.append("span").html(award.abstract + " ").style("font-size", "12px");

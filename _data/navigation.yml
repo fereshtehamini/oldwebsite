@@ -6,9 +6,12 @@ main:
 
   - title: "Projects"
     url: /projects/
-    
-  # - title: "Awards & Press"
-    # url: /awards/
 
   - title: "Teaching"
-    url: /teaching/
+    url: /teaching/    
+    
+  - title: "Awards & Press"
+    url: /awards/
+    
+  - title: "Community Services"
+    url: /services/    
