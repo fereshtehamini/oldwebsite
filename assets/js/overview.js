@@ -13,7 +13,7 @@ $(document).ready(function () {
         // Empty the div
         d3.select("#newsList").empty();
         var newsList = d3.select("#newsList").style("float", "left").style("padding-left", "0px");
-        newsList.append("h1").html("Recent news <hr/>").style("margin", "0px");
+        newsList.append("h1").html("Recent News <hr/>").style("margin", "0px");
 
         // posts
         //postsContent = postsList.append("div").attr("id", "postsContent");
