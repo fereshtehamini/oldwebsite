@@ -6,13 +6,13 @@
 	  "Andrea Bunt",
 	  "Pourang Irani"
     ],
-    "title": "Exploring In-Situ Usage of Health and Fitness Data Visualizations",
+    "title": "Data Representations for In-Situ Exploration of Health and Fitness Data",
     "venue": "ACM Pervasive Computing Technologies for Healthcare (PervasiveHealth)",
     "year": "2017",
 	"link": "http://hci.cs.umanitoba.ca/publications/details/in-situ-vis",
     "type": "Conference",
     "name": "insituhealthfitness",
-	"pdf": "",
+	"pdf": "/assets/data/insituhealthfitness.pdf",
 	"video": "",
 	"level": "phd"
   },
