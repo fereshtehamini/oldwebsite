@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Fereshteh Aminiiii"
+title                    : "Fereshteh Amini"
 title_separator          : "-"
 name                     : "Fereshteh Amini"
 description              : "Fereshteh Amini - Personal Website"
@@ -27,8 +27,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : "dark" 
-    # "light" (default), "dark"
+    colorscheme          : # "light" (default), "dark"
 
 # SEO Related
 google_site_verification :
